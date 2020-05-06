@@ -9,3 +9,5 @@ build:
 
 pub:
 	poetry publish -r ppt
+lint:
+	poetry run flake8 brain_games
