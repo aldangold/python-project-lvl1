@@ -9,13 +9,11 @@ def quest(name):
         num = random.randint(1, 100)
         print('Question: ', num)
         answer = prompt.string('Your answer: ')
-        if num % 2 == 0 and answer.lower() == 'yes':
-            print('Correct!')
-            i += 1
-        elif num % 2 != 0 and answer.lower() == 'no':
+        correct_answer = 'yes' if num % 2 == 0 else 'no'
+        if answer.lower() == correct_answer:
             print('Correct!')
             i += 1
         else:
-            print('\'yes\' is wrong answer ;(. Correct answer was \'no\'.')
+            print('\'{}\' is wrong answer ;(. Correct answer was \'{}\''.format(answer, correct_answer))  # noqa E501
             print('Let\'s try again, ', name, '!')
     return print('Congratulations, ', name, '!')
