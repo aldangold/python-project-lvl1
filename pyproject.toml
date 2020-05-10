@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "aldangold_brain_games"
-version = "0.3.1"
+version = "1.0.0"
 description = ""
 authors = ["aldangold <meloshnikoff@gmail.com>"]
 packages = [

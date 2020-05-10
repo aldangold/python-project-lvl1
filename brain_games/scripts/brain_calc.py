@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 from brain_games.scripts.brain_games import welcome
-from brain_games.games.cli import welcome_user
+from brain_games.engine.cli import welcome_user
+from brain_games.engine.flow import flow
 from brain_games.games.calc import calc
 
 
@@ -9,10 +10,10 @@ def rule():
 
 
 def main():
-    welcome()
-    rule()
+    welcome()   # Привествие
+    rule()  # Правила игры
     print()
-    calc(name=welcome_user())
+    flow(calc, welcome_user())  # Флоу вызывает игру и имя пользователя
 
 
 if __name__ == '__main__':
