@@ -1,18 +1,18 @@
 #!/usr/bin/python3
 from brain_games.scripts.brain_games import welcome
 from brain_games.games.cli import welcome_user
-from brain_games.games.even import quest
+from brain_games.games.calc import calc
 
 
 def rule():
-    print('Answer "yes" if number even otherwise answer "no".')
+    print('What is the result of the expression?')
 
 
 def main():
     welcome()
     rule()
     print()
-    quest(name=welcome_user())
+    calc(name=welcome_user())
 
 
 if __name__ == '__main__':

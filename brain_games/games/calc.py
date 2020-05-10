@@ -3,14 +3,16 @@ import random
 import prompt
 
 
-def quest(name):
+def calc(name):
     i = 0
     while i < 3:
-        num = random.randint(1, 100)
-        print('Question: ', num)
+        num1 = str(random.randint(1, 100))
+        num2 = str(random.randint(1, 100))
+        oper = random.choice(['*', '+', '-'])
+        print('Question: {} {} {}'.format(num1, oper, num2))
         answer = prompt.string('Your answer: ')
-        correct_answer = 'yes' if num % 2 == 0 else 'no'
-        if answer.lower() == correct_answer:
+        correct_answer = str(eval(num1 + oper + num2))
+        if answer == correct_answer:
             print('Correct!')
             i += 1
         else:

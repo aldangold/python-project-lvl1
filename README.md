@@ -5,3 +5,5 @@
 [![Build Status](https://travis-ci.com/aldangold/python-project-lvl1.svg?branch=master)](https://travis-ci.com/aldangold/python-project-lvl1)
 
 [![asciicast](https://asciinema.org/a/zG2CrlHbapo9Ont7V1JYLPhdF.svg)](https://asciinema.org/a/zG2CrlHbapo9Ont7V1JYLPhdF)
+
+[![asciicast](https://asciinema.org/a/CuvHVMNTEg0MDnI0v87QIpwZ3.svg)](https://asciinema.org/a/CuvHVMNTEg0MDnI0v87QIpwZ3)

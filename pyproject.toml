@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "aldangold_brain_games"
-version = "0.2.1"
+version = "0.3.1"
 description = ""
 authors = ["aldangold <meloshnikoff@gmail.com>"]
 packages = [
@@ -10,6 +10,7 @@ packages = [
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
 brain-even = "brain_games.scripts.brain_even:main"
+brain-calc = "brain_games.scripts.brain_calc:main"
 
 
 [tool.poetry.dependencies]
