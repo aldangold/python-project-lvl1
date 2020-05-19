@@ -1,11 +1,10 @@
 #!/usr/bin/python3
 import random
-import prompt
 
 
 def even():
+    rule = 'Answer "yes" if number even otherwise answer "no".'
     num = random.randint(1, 100)
-    print('Question: ', num)
-    answer = prompt.string('Your answer: ')
+    question = 'Question: {}'.format(num)
     correct_answer = 'yes' if num % 2 == 0 else 'no'
-    return (answer.lower(), correct_answer)
+    return (rule, question, correct_answer)
