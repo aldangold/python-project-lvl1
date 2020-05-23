@@ -19,5 +19,5 @@ def game_launch(game):
             i += 1
         else:
             print('\'{}\' is wrong answer ;(. Correct answer was \'{}\''.format(answer, correct_answer))  # noqa E501
-            print('Let\'s try again, ', name, '!')
-    return print('Congratulations, ', name, '!')
+            print('Let\'s try again, {}!'.format(name))
+    return print('Congratulations, {}!'.format(name))
