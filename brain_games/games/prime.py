@@ -1,14 +1,15 @@
-#!/usr/bin/python3
 import random
 import math
 
 
-def prime():
-    rule = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+
+
+def match_build():
     num1 = random.randint(3, 500)
-    question = 'Question: {}'.format(num1)
+    question = num1
     correct_answer = check_on_prime(num1)
-    return (rule, question, correct_answer)
+    return (question, correct_answer)
 
 
 def check_on_prime(num1):

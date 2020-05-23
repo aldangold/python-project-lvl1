@@ -1,6 +1,6 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 from brain_games.engine.flow import game_launch
-from brain_games.games.gcd import gcd
+from brain_games.games import gcd
 
 
 def main():

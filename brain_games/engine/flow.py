@@ -1,11 +1,9 @@
-#!/usr/bin/python3
 import prompt
 
 
 def game_launch(game):
-    (rule, _, _) = game()
     print('Welcome to the Brain Games!')
-    print(rule)
+    print(game.RULE)
     print()
     name = prompt.string('May I have your name? ')
     print('Hello, ', name, '!')
@@ -13,8 +11,8 @@ def game_launch(game):
     number_of_round = 3
     i = 0
     while i < number_of_round:
-        (_, question, correct_answer) = game()
-        print(question)
+        (question, correct_answer) = game.match_build()
+        print('Question: {}'.format(question))
         answer = prompt.string('Your answer: ')
         if answer == correct_answer:
             print('Correct!')
