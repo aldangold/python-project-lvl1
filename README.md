@@ -1,23 +1,67 @@
-<h2> python-project-lvl1 </h2>
+<h1 align="center"> Python-project-lvl1 </h1>
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/e617a09c690c01b8b266/maintainability)](https://codeclimate.com/github/aldangold/python-project-lvl1/maintainability)  [![Build Status](https://travis-ci.com/aldangold/python-project-lvl1.svg?branch=master)](https://travis-ci.com/aldangold/python-project-lvl1)
+<div align="center">
+	<a href="https://travis-ci.com/aldangold/python-project-lvl1.svg?branch=master">
+		<img src="https://travis-ci.com/aldangold/python-project-lvl1.svg?branch=master" />
+	</a> 
+	<a href="https://codeclimate.com/github/aldangold/python-project-lvl1/maintainability">
+		<img src="https://api.codeclimate.com/v1/badges/e617a09c690c01b8b266/maintainability" />
+	</a> 
+	<a href="https://codeclimate.com/github/aldangold/python-project-lvl1/test_coverage">
+		<img src="https://api.codeclimate.com/v1/badges/e617a09c690c01b8b266/test_coverage" />
+	</a> 
+</div>
 
-<h3> Brain Games - the set of math mini games </h3>
+<h2>:game_die: Brain Games - a collection of mini-games for calculate in the mind </h2>
+	<p>This project is a console application consisting of the following set of games:</p>
+		<ul>
+		  <li> brain-even - game on determining of even number </li>
+		  <li> brain-calc - game on the ability of calculations without a calculator </li>
+		  <li> brain-gcd - game on determining the greatest common divisor </li>
+		  <li> brain-progression - game on determining hidden number in arithmetic progression </li>
+		  <li> brain-prime - game on determining of prime number </li>    
+		</ul>
 
-<ul>
-    <li> brain-even - test for determining of even number </li>
-    <li> brain-calc - test for the ability of calculations without a calculator </li>
-    <li> brain-gcd - test for determining the greatest common divisor </li>
-    <li> brain-prime - test for determining of prime number </li>
-    <li> brain-progression - test for determining hidden number in arithmetic progression </li>
-</ul>
+<h2>:package: Installation Guide </h2>
+		<ul>
+		  <li> 
+		  	<p>Install Python Prompt </p>
+		  	</li>
+		  	<pre>$pip install prompt</pre>
+		  <li> <p>Install aldangold-brain-games last version</p>
+		  	</li>
+		  	<pre>$pip install --index-url https://test.pypi.org/simple aldangold-brain-games==*</pre>
+		  <blockquote> Note: *Last version = 1.3.2</blockquote>
+		</ul>
+		<p align="center">
+			<a href="https://asciinema.org/a/NtibcIm4fFoifEES9ayJnNleN" target="_blank"><img src="https://asciinema.org/a/NtibcIm4fFoifEES9ayJnNleN.svg" width="80%" />
+			</a>
+		</p>
+	
 
-[![asciicast](https://asciinema.org/a/zG2CrlHbapo9Ont7V1JYLPhdF.svg)](https://asciinema.org/a/zG2CrlHbapo9Ont7V1JYLPhdF)
-
-[![asciicast](https://asciinema.org/a/9zubMea2ZaXrTHXGbFLW6qW3P.svg)](https://asciinema.org/a/9zubMea2ZaXrTHXGbFLW6qW3P)
-
-[![asciicast](https://asciinema.org/a/zlXThwwLVk9tGi77rJQxqQG1s.svg)](https://asciinema.org/a/zlXThwwLVk9tGi77rJQxqQG1s)
-
-[![asciicast](https://asciinema.org/a/bgl4ofi4bGkAr2KicL7rLe4ei.svg)](https://asciinema.org/a/bgl4ofi4bGkAr2KicL7rLe4ei)
-
-[![asciicast](https://asciinema.org/a/1ojgih89eEwKWrN7fCYHS6VWq.svg)](https://asciinema.org/a/1ojgih89eEwKWrN7fCYHS6VWq)
+<h2> :rocket: Launch and demo of the games</h2>
+<h4> brain-even - game on determining of even number</h4>
+	<pre>$brain-even</pre>
+		<p align="center">
+			<a href="https://asciinema.org/a/TPj67aOkjZw2Q6iwq0F3kuGNV" target="_blank"><img src="https://asciinema.org/a/TPj67aOkjZw2Q6iwq0F3kuGNV.svg" width="80%"/></a>
+		</p>
+<h4> brain-calc - game on the ability of calculations without a calculator</h4>
+	<pre>$brain-calc</pre>
+		<p align="center">
+			<a href="https://asciinema.org/a/mekJSL9I9fQFqPDtbSc6jPqyg" target="_blank"><img src="https://asciinema.org/a/mekJSL9I9fQFqPDtbSc6jPqyg.svg" width="80%"/></a>
+		</p>
+<h4> brain-gcd - game on determining the greatest common divisor</h4>
+	<pre>$brain-gcd</pre>
+		<p align="center">
+			<a href="https://asciinema.org/a/ieHHecBVJQGqCiipbwOufutkO" target="_blank"><img src="https://asciinema.org/a/ieHHecBVJQGqCiipbwOufutkO.svg" width="80%"/></a>
+		</p>
+<h4> brain-progression - game on determining hidden number in arithmetic progression</h4>
+	<pre>$brain-progression</pre>
+		<p align="center">
+			<a href="https://asciinema.org/a/LGgNuoMMjMFonrla0jMNX2PPQ" target="_blank"><img src="https://asciinema.org/a/LGgNuoMMjMFonrla0jMNX2PPQ.svg" width="80%"/></a>
+		</p>
+<h4> brain-prime - game on determining of prime number </h4>
+	<pre>$brain-prime</pre>
+		<p align="center">
+			<a href="https://asciinema.org/a/6UGrekXdQVvFhfmznH05qo7g5" target="_blank"><img src="https://asciinema.org/a/6UGrekXdQVvFhfmznH05qo7g5.svg" width="80%"/></a>
+		</p>
