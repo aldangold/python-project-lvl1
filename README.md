@@ -7,9 +7,6 @@
 	<a href="https://codeclimate.com/github/aldangold/python-project-lvl1/maintainability">
 		<img src="https://api.codeclimate.com/v1/badges/e617a09c690c01b8b266/maintainability" />
 	</a> 
-	<a href="https://codeclimate.com/github/aldangold/python-project-lvl1/test_coverage">
-		<img src="https://api.codeclimate.com/v1/badges/e617a09c690c01b8b266/test_coverage" />
-	</a> 
 </div>
 
 <h2>:game_die: Brain Games - a collection of mini-games for calculate in the mind </h2>
