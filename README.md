@@ -28,7 +28,7 @@
 		  <li> <p>Install aldangold-brain-games last version</p>
 		  	</li>
 		  	<pre>$pip install --index-url https://test.pypi.org/simple aldangold-brain-games==*</pre>
-		  <blockquote> Note: *Last version = 1.3.2</blockquote>
+		  <blockquote> Note: *last version = 1.3.3</blockquote>
 		</ul>
 		<p align="center">
 			<a href="https://asciinema.org/a/NtibcIm4fFoifEES9ayJnNleN" target="_blank"><img src="https://asciinema.org/a/NtibcIm4fFoifEES9ayJnNleN.svg" width="80%" />
