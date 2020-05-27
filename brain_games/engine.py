@@ -1,7 +1,7 @@
 import prompt
 
 
-def game_launch(game):
+def play(game):
     print('Welcome to the Brain Games!')
     print(game.RULE)
     print()
