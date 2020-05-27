@@ -1,23 +1,16 @@
-import prompt
+from brain_games import cli
 
 
 def play(game):
-    print('Welcome to the Brain Games!')
-    print(game.RULE)
-    print()
-    name = prompt.string('May I have your name? ')
-    print('Hello, ', name, '!')
-    print()
-    number_of_round = 3
-    i = 0
-    while i < number_of_round:
+    name = cli.welcome(game.RULE)
+    number_of_rounds = 3
+    counter = 0
+    while counter < number_of_rounds:
         (question, correct_answer) = game.match_build()
-        print('Question: {}'.format(question))
-        answer = prompt.string('Your answer: ')
+        answer = cli.request_answer(question)
         if answer == correct_answer:
-            print('Correct!')
-            i += 1
+            cli.show_message_correct_answer()
+            counter += 1
         else:
-            print('\'{}\' is wrong answer ;(. Correct answer was \'{}\''.format(answer, correct_answer))  # noqa E501
-            print('Let\'s try again, {}!'.format(name))
-    print('Congratulations, {}!'.format(name))
+            cli.show_message_wrong_answer(answer, correct_answer, name)
+    cli.show_message_winner(name)
