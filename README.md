@@ -1,7 +1,7 @@
 <h1 align="center"> Python-project-lvl1 </h1>
 
 <div align="center">
-	<a href="https://travis-ci.com/aldangold/python-project-lvl1.svg?branch=master">
+	<a href="https://travis-ci.com/aldangold/python-project-lvl1">
 		<img src="https://travis-ci.com/aldangold/python-project-lvl1.svg?branch=master" />
 	</a> 
 	<a href="https://codeclimate.com/github/aldangold/python-project-lvl1/maintainability">

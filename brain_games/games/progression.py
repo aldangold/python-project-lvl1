@@ -4,7 +4,7 @@ import random
 RULE = 'What number is missing in the progression?'
 
 
-def match_build():
+def build_match():
     num1 = random.randint(1, 50)
     num2 = random.randint(1, 10)
     progression_length = 10
