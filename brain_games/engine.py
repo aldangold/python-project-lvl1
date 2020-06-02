@@ -5,7 +5,7 @@ def play(game):
     print(cli.GENERAL_GREET)
     print(game.RULE)
     print()
-    name = cli.request_name()
+    name = cli.ask_user(cli.NAME)
     print(cli.USER_GREET.format(name))
     print()
     number_of_matches = 3
@@ -13,7 +13,7 @@ def play(game):
     while counter < number_of_matches:
         (question, correct_answer) = game.build_match()
         print(cli.QUESTION.format(question))
-        answer = cli.request_answer()
+        answer = cli.ask_user(cli.ANSWER)
         if answer == correct_answer:
             print(cli.CORRECT_ANSWER)
             counter += 1

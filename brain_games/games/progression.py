@@ -5,10 +5,11 @@ RULE = 'What number is missing in the progression?'
 
 
 def build_match():
-    num1 = random.randint(1, 50)
-    num2 = random.randint(1, 10)
+    start_value = random.randint(1, 50)
+    step = random.randint(1, 10)
     progression_length = 10
-    progression = list(range(num1, num2 * progression_length + num1, num2))
+    final_value = step * progression_length + start_value
+    progression = list(range(start_value, final_value, step))
     hidden_index = random.randint(0, progression_length - 1)
     correct_answer = str(progression[hidden_index])
     progression[hidden_index] = '..'

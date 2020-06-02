@@ -1,16 +1,14 @@
-#!/usr/bin/env python3
 import prompt
 
 
-def request_name():
-    name = prompt.string("May I have your name? ")
-    return name
-
-
-def request_answer():
-    answer = prompt.string("Your answer: ")
+def ask_user(question):
+    answer = prompt.string(question)
     return answer
 
+
+NAME = "May I have your name? "
+
+ANSWER = "Your answer: "
 
 GENERAL_GREET = "Welcome to the Brain Games!"
 
